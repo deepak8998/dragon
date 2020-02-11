@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Hotel Information System User Registration</title>
+
+<style>
+  footer
+{
+
+font-size: 20px;
+color: 	blue;
+background-color:olive;
+}
+
+header{
+	background-color: lightyellow;
+	color:brown;
+	font-size: 50px;
+
+}
+form
+{
+	background-color:lightblue; 
+width: 825px;
+padding: 10px;
+margin: 10px;
+}
+td,th{
+	font-size: 12px;
+}
+
+fieldset{
+	width: 800px;
+	height: 400px;
+}
+h1{
+	margin-top: 2px;
+	margin-bottom: 1px;
+}
+
+#form1{
+margin-top:2px;
+}
+	</style>
+	<script type="text/javascript" src="ps4j.js">
+	</script>
+
+
+
+
+</head>
+<body>
+
+	<header>
+		<h1>User Registration Screen</h1>
+
+	</header>
+<form id="form1" action="ps4con.html" method="post" onsubmit="return validateform()" name="myform">
+	<fieldset>
+	<table>
+
+<tr>
+	<th>
+		<label for="e mail">E Mail</label>
+	</th>
+	<td>
+		
+		<input type="email" id="primary_email" >
+	</td>
+</tr>
+
+<tr>
+	<th>
+		<label for="user_name">Name</label>
+	</th>
+	<td>
+		<input type="text" name="user_name" id="user_name">
+	</td>
+</tr>
+
+<tr>
+	<th>
+		<label for="password">Password</label>
+	</th>
+	<td>
+		<input type ="password"  id="password" name="password" placeholder="(*****)    ">
+	</td>
+</tr>
+
+<tr>
+	<th>
+		<label for="re_password">Retype Password</label>
+	</th>
+	<td>
+		<input type ="password"  id="repassword" name="repassword" >
+	</td>
+</tr>
+
+<tr><th>
+		Address </th><td><textarea rows="5" cols="50" form="form1" id="address"> </textarea></td></tr>
+		
+		<tr>
+
+
+<tr>
+	<th>
+		<label for="phoneno">Phone no.</label>
+	</th>
+	<td>
+		<label for="mobile">Mobile</label>
+		<input type="text" id="mobile" name="mobile"pattern ="[0-9]{3}-[0-9]{3}-[0-9]{}" >
+	</td>
+</tr>
+<tr>
+	<th></th>
+	<td>
+		<label for ="landline">Landline</label>
+		<input type="text" id="seondary_email" name="landline"pattern ="[0-9]{3}-[0-9]{3}-[0-9]{}">
+	</td>
+</tr>
+
+
+
+<tr>
+	<th> 
+		
+<input type="image" src="images.jpg" width="200px" height="80px;">
+	</th>
+	<th><button type="reset">
+    <img src="img4.png" alt="afaf" width="100px" height="50px">
+ </button>
+</th>
+</tr>
+
+
+
+
+</table>
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+<footer id="fo">
+	<center>
+<h3>	
+	<q>This website and its content is copyright
+      of User Registration Screen
+</q>  .
+</h3>
+
+
+</center>
+</footer>
+</body>
+</html>

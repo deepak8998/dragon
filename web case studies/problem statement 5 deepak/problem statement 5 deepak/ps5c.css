@@ -1,0 +1,23 @@
+body{
+	background-color: #1E90FF;
+}
+td,th{
+			width: 100px;
+			height: 200px;
+		}
+		img{
+			height: 220px;
+			width:260px;
+		}
+
+th{ font-size: 25px; 
+}
+select{
+	font-size: 15px;
+	font-style: italic;
+}
+
+h1{
+	font-size: 33px;
+	font-style: italic;
+}
